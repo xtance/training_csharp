@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace TrainingPractice_01
 {
-    class Program
+    class KES_Task_01
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
