@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KES_Task_01
 {
     class Program
     {
+        //Стоимость 1 кристалла
         public const int rate = 100;
         static void Main(string[] args)
         {
@@ -17,14 +13,16 @@ namespace KES_Task_01
             Console.WriteLine($"Сколько кристаллов вы хотите купить? Курс 1 кр. = {rate} золота");
             int crystals = Convert.ToInt32(Console.ReadLine());
 
+            //Попытка обойтись без if/else
             try
             {
-                int[] arr = new int[gold+1];
                 int res = gold - crystals * rate;
+                int[] arr = new int[gold+1];
                 arr[res] = 1;
-                Console.WriteLine($"У вас {crystals} кристаллов и {res} золота.");
+                Console.WriteLine($"У вас {res} золота и {crystals} кристаллов.");
             }
-            catch (Exception e) {
+            catch (Exception e)
+            {
                 Console.WriteLine($"Сделка не удалась - у вас {gold} золота и 0 кристаллов.");
             };
         }
