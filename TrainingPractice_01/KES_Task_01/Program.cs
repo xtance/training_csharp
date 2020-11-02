@@ -19,7 +19,7 @@ namespace KES_Task_01
                 int res = gold - crystals * rate;
                 int[] arr = new int[gold+1];
                 arr[res] = 1;
-                Console.WriteLine($"У вас {res} золота и {crystals} кристаллов.");
+                Console.WriteLine($"Успешно. У вас {res} золота и {crystals} кристаллов.");
             }
             catch (Exception e)
             {
