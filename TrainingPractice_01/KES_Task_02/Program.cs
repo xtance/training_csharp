@@ -14,6 +14,7 @@ namespace KES_Task_02
             do
             {
                 str = Console.ReadLine();
+
             } while (!str.Equals("exit"));
         }
     }
