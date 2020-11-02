@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrainingPractice_01
+namespace KES_Task_01
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("aaa");
         }
     }
 }

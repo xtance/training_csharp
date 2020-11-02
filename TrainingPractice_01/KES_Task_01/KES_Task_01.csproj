@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D872C14B-DAAF-4CA7-BD79-3F033EEC3401}</ProjectGuid>
+    <ProjectGuid>{37C2F0C1-76DD-4068-92AC-4F7C2C83F1A3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TrainingPractice_01</RootNamespace>
-    <AssemblyName>TrainingPractice_01</AssemblyName>
+    <RootNamespace>KES_Task_01</RootNamespace>
+    <AssemblyName>KES_Task_01</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KES_Task_01.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
