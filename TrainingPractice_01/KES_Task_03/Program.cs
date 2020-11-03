@@ -4,8 +4,8 @@ namespace KES_Task_03
 {
     class Program
     {
-        public const string key = "csharp";
-        public const string message = "Hello!";
+        private const string key = "csharp";
+        private const string message = "Hello!";
         static void Main(string[] args)
         {
             int attempts = 0;
