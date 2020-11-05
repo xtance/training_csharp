@@ -80,7 +80,7 @@ namespace KES_Task_04
                 if (!found) Console.WriteLine("Вы переволновались и вызвали несуществующее заклинание..");
                 if (boss > 0)
                 {
-                    int temp = random.Next(0, 75);
+                    int temp = random.Next(0, 50);
                     hp -= temp;
                     Console.WriteLine($"Босс наносит ответный удар: -{temp} ХП...");
                 }
