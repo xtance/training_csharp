@@ -1,0 +1,7 @@
+C:\Users\me\source\repos\xtance\training_csharp\TrainingPractice_01\KES_Task_06\bin\Debug\KES_Task_06.exe.config
+C:\Users\me\source\repos\xtance\training_csharp\TrainingPractice_01\KES_Task_06\bin\Debug\KES_Task_06.exe
+C:\Users\me\source\repos\xtance\training_csharp\TrainingPractice_01\KES_Task_06\bin\Debug\KES_Task_06.pdb
+C:\Users\me\source\repos\xtance\training_csharp\TrainingPractice_01\KES_Task_06\obj\Debug\KES_Task_06.csprojAssemblyReference.cache
+C:\Users\me\source\repos\xtance\training_csharp\TrainingPractice_01\KES_Task_06\obj\Debug\KES_Task_06.csproj.CoreCompileInputs.cache
+C:\Users\me\source\repos\xtance\training_csharp\TrainingPractice_01\KES_Task_06\obj\Debug\KES_Task_06.exe
+C:\Users\me\source\repos\xtance\training_csharp\TrainingPractice_01\KES_Task_06\obj\Debug\KES_Task_06.pdb
