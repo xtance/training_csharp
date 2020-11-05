@@ -6,6 +6,7 @@ namespace KES_Task_07
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите размер массива: ");
             int size = Convert.ToInt32(Console.ReadLine());
             int[] arr = new int[size];
             Random random = new Random();
@@ -24,6 +25,7 @@ namespace KES_Task_07
 
             Console.WriteLine("Перемешанный массив:");
             Print(arr, size);
+            Console.ReadLine();
         }
 
         // Удобный вывод массива
